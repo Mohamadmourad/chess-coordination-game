@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:600px;
+    margin-top: 30px;
+    background-color: #7A9DB1;
+}
+
+
+.chess{
+    width: 600px;
+    height: 600px;
+    border-style: solid;
+    display: flex;
+   margin-right: 220px;
+}
+
+.ar{
+    width: 75px;
+    height: 75px; 
+    font-weight: bold;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.black{
+    background-color: black;
+    color: black;
+}
+.white{
+    background-color: aqua;
+    color: aqua;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.generate{
+    display: flex;
+    flex-direction: column;
+    border-left: solid;
+    border-width: 10px;
+    padding-left: 40px;
+}
+.text{
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 30px;
+    
+}
+.generatedcoordination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 30px;
+}
+.btn{
+margin-top: 50px;
+border: none;
+height: 60px;
+border-radius: 10px;
+cursor: pointer;
+margin-left: 30px;
+}
+.btn:active{
+    background-color: aqua;
+    transform: scale(0.8);
+}
+
+
+
+
+.scoretext{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: row;
+  margin-top: 190px;
+  margin-left: 50px;
+}
+
+/* Define the styling for the individual radio buttons */
+.radio-group input[type="radio"] {
+  display: none;
+}
+
+.radio-group label {
+  margin-right: 20px;
+  padding: 10px;
+  border: 2px solid aqua;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Style for the selected radio button */
+.radio-group input[type="radio"]:checked + label {
+  background-color: aqua;
+  color: white;
+}
+
+
+
+
+
+
+
+
